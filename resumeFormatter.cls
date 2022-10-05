@@ -3,7 +3,7 @@
 % % Original Copyright (C) 2010 by Trey Hunner
 % % Note: very little from the original class is still below.
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
+\ProvidesClass{resumeFormatter}[2010/07/10 v0.9 resumeFormatter class]
 \LoadClass[11pt,letterpaper]{article}
 \usepackage[parfill]{parskip} % remove paragraph indentation
 \usepackage{array} % boldface (\bf and \bfseries) tabular columns
@@ -30,20 +30,20 @@
 \def \printaddress {
   \@ifundefined{\@address}{\@address}{}
 }
-\def \printEmail {
+\def \printemail {
   \@ifundefined{\@email}{
-    \href{\@email}{\@email}}{}
+    \href{https://mailto:\@email}{\@email}}{}
 }
-\def \printPhone {
+\def \printphone {
   \@ifundefined{\@phone}{\@phone}{}
 }
-\newcommand{\printSeparator}[2]{
+\newcommand{\printseparator}[2]{
   \@ifundefined{\@#1}{\@ifundefined{\@#2}{|}{}}{}
 }
-% bring it all together with \printContact
+% bring it all together with \printcontact
 \def \printcontact {
   \begingroup
-    \centerline{\@email | \@phone}\\
+    \centerline{\printemail | \printphone}\\
     \centerline{\printaddress}
   \endgroup
   % \par
@@ -52,7 +52,7 @@
 % rSection environment
 \newenvironment{rSection}[1]{
   \sectionskip
-  \MakeUppercase{\bf #1} % section title
+  \MakeUppercase{{\bf #1}} % section title
   \sectionlineskip
   \hrule % horizontal line
   \begin{list}{}{ % list for each individual item in the section
@@ -65,11 +65,11 @@
 
 % job section formatting
 \newenvironment{job}[4]{ % job title, year(s) employed, company name, and location
- {\em #1} \hfill {#2} % bold job title and date
+ {\bf\em #1} \hfill {#2} % job title and date
  \ifthenelse{\equal{#3}{}}{}{
   \\ {\bf #3} \hfill {#4} % company and location
   }\smallskip
-  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+  \begin{list}{$\smallbullet$}{\leftmargin=0em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
@@ -84,3 +84,7 @@
 \def\sectionskip{\medskip} % the space after the heading section
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% bullets
+\newcommand*\smallbullet{\mathpalette\smallbullet@{.6}}
+\newcommand*\smallbullet@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+
