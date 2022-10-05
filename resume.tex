@@ -1,20 +1,17 @@
-\documentclass{resume}
-\usepackage{cite, enumitem, hyperref, geometry, titlesec, cite, url, microtype, babel}
+\documentclass{resumeFormatter}
+\usepackage{cite, enumitem, hyperref, geometry, titlesec, cite, url, microtype, babel, bookmark}
 \geometry{left=0.75in,top=0.6in,right=0.75in,bottom=0.6in}
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
-% my info
-\name{Ac Hybl}
-\address{\href{acistheplace@gmail.com}{acistheplace@gmail.com} | 931-303-1696}
 
 \begin{document}
 
+\input{content/head.tex}
 \input{content/summary.tex}
 \input{content/skills.tex}
 \input{content/education.tex}
 \input{content/workExperience.tex}
-
 \input{content/projects.tex}
+\pagebreak
+\input{content/references.tex}
 
 \end{document}
