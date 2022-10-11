@@ -4,7 +4,7 @@
 % % Note: very little from the original class is still below.
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ProvidesClass{resumeFormatter}[2010/07/10 v0.9 resumeFormatter class]
-\LoadClass[11pt,letterpaper]{article}
+\LoadClass[12pt,letterpaper]{article}
 \usepackage[parfill]{parskip} % remove paragraph indentation
 \usepackage{array} % boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % ifthenelse statements
@@ -34,9 +34,6 @@
   \@ifundefined{\@email}{
     \href{mailto:\@email}{\@email}}{}
 }
-\newcommand{\printanemail}[1] {
-  \href{mailto:#1}{#1}
-}
 \def \printphone {
   \@ifundefined{\@phone}{\@phone}{}
 }
@@ -48,8 +45,13 @@
   \begingroup
     \centerline{\printmyemail | \printphone}\\
     \centerline{\printaddress}
+    \par
   \endgroup
 }
+\newcommand{\printanemail}[1] {
+  \href{mailto:#1}{#1}
+}
+\newcommand{\printdate}[1]{{\em #1}}
 
 % rSection environment
 \newcommand{\sectionHeader}[1]{
@@ -70,7 +72,7 @@
 
 % job
 \newenvironment{job}[4]{ % job title, year(s) employed, company name, and location
- {\bf #1} \hfill {#2} % job title and date
+ {\bf #1} \hfill \printdate{#2} % job title and date
  \ifthenelse{\equal{#3}{}}{}{
   \\ {\bf\em #3} \hfill {#4} % company and location
   }\smallskip
@@ -83,7 +85,7 @@
 
 % project
 \newenvironment{project}[2]{ % project title, date
- {\bf #1} \hfill {#2}
+ {\bf #1} \hfill \printdate{#2}
  \smallskip
   \begin{list}{}{\leftmargin=0em}
    \itemsep -0.5em \vspace{-0.5em}
