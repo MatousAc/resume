@@ -71,12 +71,12 @@
 }
 
 % job
-\newenvironment{job}[4]{ % job title, year(s) employed, company name, and location
- {\bf #1} \hfill \printdate{#2} % job title and date
- \ifthenelse{\equal{#3}{}}{}{
-  \\ {\bf\em #3} \hfill {#4} % company and location
+\newenvironment{job}[5][$\smallbullet$]{ % [bullet] job, date, company, location
+ {\bf #2} \hfill \printdate{#3} % job title and date
+ \ifthenelse{\equal{#4}{}}{}{
+  \\ {\bf\em #4} \hfill {#5} % company and location
   }\smallskip
-  \begin{list}{$\smallbullet$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+  \begin{list}{#1}{\leftmargin=1em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % compress items
   }{
   \end{list}
@@ -97,11 +97,11 @@
 % reference
 \newcommand{\reference}[5]{ % name, job title, company, email, phone
  {\bf #1}\\
- #2\\
+ {\em #2}\\
  #3 \\
  \printanemail{#4}\\
  #5
- \medskip
+ \bigskip
 }
 
 % % whitespace commands
