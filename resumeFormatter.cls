@@ -20,7 +20,7 @@
 \newcommand{\address}[1]{\def\@address{#1}}
 \def \@address {}
 
-% \print commands
+% print commands
 \def \printname {
   \begingroup
     \hfil{\namesize\bf \@name}\hfil
@@ -30,9 +30,12 @@
 \def \printaddress {
   \@ifundefined{\@address}{\@address}{}
 }
-\def \printemail {
+\def \printmyemail {
   \@ifundefined{\@email}{
-    \href{https://mailto:\@email}{\@email}}{}
+    \href{mailto:\@email}{\@email}}{}
+}
+\newcommand{\printanemail}[1] {
+  \href{mailto:#1}{#1}
 }
 \def \printphone {
   \@ifundefined{\@phone}{\@phone}{}
@@ -43,18 +46,20 @@
 % bring it all together with \printcontact
 \def \printcontact {
   \begingroup
-    \centerline{\printemail | \printphone}\\
+    \centerline{\printmyemail | \printphone}\\
     \centerline{\printaddress}
   \endgroup
-  % \par
 }
 
 % rSection environment
-\newenvironment{rSection}[1]{
-  \sectionskip
+\newcommand{\sectionHeader}[1]{
   \MakeUppercase{{\bf #1}} % section title
   \sectionlineskip
   \hrule % horizontal line
+}
+\newenvironment{rSection}[1]{
+  \sectionskip
+  \sectionHeader{#1}
   \begin{list}{}{ % list for each individual item in the section
     \setlength{\leftmargin}{1em} % margin within the section
   }
@@ -63,21 +68,42 @@
   \end{list}
 }
 
-% job section formatting
+% job
 \newenvironment{job}[4]{ % job title, year(s) employed, company name, and location
- {\bf\em #1} \hfill {#2} % job title and date
+ {\bf #1} \hfill {#2} % job title and date
  \ifthenelse{\equal{#3}{}}{}{
-  \\ {\bf #3} \hfill {#4} % company and location
+  \\ {\bf\em #3} \hfill {#4} % company and location
   }\smallskip
   \begin{list}{$\smallbullet$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \itemsep -0.5em \vspace{-0.5em} % compress items
   }{
   \end{list}
   \medskip
 }
 
+% project
+\newenvironment{project}[2]{ % project title, date
+ {\bf #1} \hfill {#2}
+ \smallskip
+  \begin{list}{}{\leftmargin=0em}
+   \itemsep -0.5em \vspace{-0.5em}
+  }{
+  \end{list}
+  \medskip
+}
+
+% reference
+\newcommand{\reference}[5]{ % name, job title, company, email, phone
+ {\bf #1}\\
+ #2\\
+ #3 \\
+ \printanemail{#4}\\
+ #5
+ \medskip
+}
+
 % % whitespace commands
-\def\namesize{\Huge} % size of my name
+\def\namesize{\fontsize{28}{30}\selectfont} % size of my name
 \def\addressskip{\smallskip} % space between address|phone|email
 \def\sectionlineskip{\smallskip} % the space between section and underline 
 \def\nameskip{\medskip} % the space after your name at the top

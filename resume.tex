@@ -1,5 +1,14 @@
 \documentclass{resumeFormatter}
-\usepackage{enumitem, hyperref, geometry, url, bookmark, xcolor, amsmath, graphicx}
+\usepackage{
+enumitem, % lists
+hyperref, url, % links
+geometry, % margins
+multicol, % multiple columns
+bookmark, 
+xcolor, % link colours
+amsmath, mathptmx, % scaling
+graphicx
+}
 \geometry{left=0.75in,top=0.6in,right=0.75in,bottom=0.6in}
 \hypersetup{
     colorlinks,
@@ -17,6 +26,6 @@
 \input{content/workExperience.tex}
 \input{content/projects.tex}
 \pagebreak
-% \input{content/references.tex}
+\input{content/references.tex}
 
 \end{document}
