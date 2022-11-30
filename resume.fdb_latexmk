@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1669829804 "c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1669829809
-  "c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex" 1669829323 677 b435c4b4e0910bcbe8518e799498bf39 ""
+["pdflatex"] 1669832730 "c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1669832735
+  "c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex" 1669832725 689 86376864232098ce7d83357283636ec5 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1667190874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1667191460 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1667195792 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -105,11 +105,11 @@
   "content/head.tex" 1664999830 157 0e6fefee292d9efd8701a108a8bf001a ""
   "content/projects.tex" 1667343824 713 b1d45220b8fdd614dddc1b59c8e42d6c ""
   "content/references.tex" 1665513374 1237 5c175a55efe40a742e4c598be7fca18a ""
-  "content/skills.tex" 1667266253 309 1a4fed08497ed07a2f36b7068984a711 ""
   "content/summary.tex" 1665511052 250 1df23d10cde9252d97e5532e327a531a ""
+  "content/technicalStrengths.tex" 1667266253 309 1a4fed08497ed07a2f36b7068984a711 ""
   "content/workExperience.tex" 1669829800 1249 5190d5b54eed8bf05ece99c21bf4f7cb ""
-  "resume.aux" 1669829809 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
-  "resume.tex" 1669829323 677 b435c4b4e0910bcbe8518e799498bf39 ""
+  "resume.aux" 1669832734 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
+  "resume.tex" 1669832725 689 86376864232098ce7d83357283636ec5 ""
   "resumeFormatter.cls" 1665514901 3394 4bf60d57a2239c9afededa8f85d23133 ""
   (generated)
   "resume.aux"

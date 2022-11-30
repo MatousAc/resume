@@ -665,10 +665,10 @@ INPUT content/summary.tex
 INPUT ./content/summary.tex
 INPUT content/summary.tex
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT ./content/skills.tex
-INPUT content/skills.tex
-INPUT ./content/skills.tex
-INPUT content/skills.tex
+INPUT ./content/technicalStrengths.tex
+INPUT content/technicalStrengths.tex
+INPUT ./content/technicalStrengths.tex
+INPUT content/technicalStrengths.tex
 INPUT c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
