@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.16)  27 FEB 2023 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.16)  28 FEB 2023 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -502,16 +502,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 Here is how much of TeX's memory you used:
  11301 strings out of 474968
  177175 string characters out of 5780080
- 546087 words of memory out of 5000000
+ 547087 words of memory out of 5000000
  32624 multiletter control sequences out of 15000+600000
  488162 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,7n,76p,618b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (2 pages, 72670 bytes).
+Output written on resume.pdf (2 pages, 73808 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

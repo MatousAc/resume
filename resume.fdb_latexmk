@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1677555467 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1677555469 0
+["pdflatex"] 1677621167 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1677621168 0
   "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" 1677553603 689 86376864232098ce7d83357283636ec5 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1671161788 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671162517 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -101,14 +101,14 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1671168815 4662777 6d30ebd1f2949ad7a3d8a3b5cd0d9f7d ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1671168994 3063334 da0e7dbd91f708faad1745094e1c66e3 ""
   "c:/texlive/2022/texmf.cnf" 1671168777 713 e69b156964470283e0530f5060668171 ""
-  "content/education.tex" 1677552658 379 5e99ff454f1cec9fbb14759a47294053 ""
+  "content/education.tex" 1677619827 382 60313b1a727666dd898a6b4148cc3c40 ""
   "content/head.tex" 1677535547 181 7c4fa0f9513bc8749e9ca57cece3b965 ""
-  "content/projects.tex" 1677553092 802 3518dc2203d933bd932a516e4a1f416b ""
+  "content/projects.tex" 1677621149 808 e2145542901d131030b7794cc9805935 ""
   "content/references.tex" 1677553420 1382 d61fa2c73be44a9e58cac662e1b0d91e ""
   "content/summary.tex" 1677532981 260 4e9c74d972a7d34b328365f6fa396443 ""
-  "content/technicalStrengths.tex" 1677555466 358 56e23d9f727146f40fb13bf1020bc737 ""
-  "content/workExperience.tex" 1677553503 1458 544758002762512dc4af8138685ac015 ""
-  "resume.aux" 1677555468 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
+  "content/technicalStrengths.tex" 1677617068 359 b68c59a0d8f8acc767015f1cbd5bd42b ""
+  "content/workExperience.tex" 1677621165 1452 5720669c5ee6b297538f14551255fa28 ""
+  "resume.aux" 1677621168 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
   "resume.tex" 1677553603 689 86376864232098ce7d83357283636ec5 ""
   "resumeFormatter.cls" 1677535556 3546 96c65245144262bd2060d49a6e3f22b3 ""
   (generated)
