@@ -19,6 +19,8 @@
 \def \@email {}
 \newcommand{\address}[1]{\def\@address{#1}}
 \def \@address {}
+\newcommand{\website}[1]{\def\@website{#1}}
+\def \@website {}
 
 % print commands
 \def \printname {
@@ -29,6 +31,10 @@
 }
 \def \printaddress {
   \@ifundefined{\@address}{\@address}{}
+}
+\def \printwebsite {
+  \@ifundefined{\@website}{
+    \href{\@website}{\@website}}{}
 }
 \def \printmyemail {
   \@ifundefined{\@email}{
@@ -43,7 +49,7 @@
 % bring it all together with \printcontact
 \def \printcontact {
   \begingroup
-    \centerline{\printmyemail | \printphone}\\
+    \centerline{\printmyemail|\printphone}\\
     \centerline{\printaddress}
     \par
   \endgroup

@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.31)  30 NOV 2022 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.16)  27 FEB 2023 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex
-(c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-10-26> (./resumeFormatter.cls
+**c:/Users/mashu/Desktop/code/latex/resume/resume.tex
+(c:/Users/mashu/Desktop/code/latex/resume/resume.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-11-02> (./resumeFormatter.cls
 Document Class: resumeFormatter 2010/07/10 v0.9 resumeFormatter class
 (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (c:/texlive/2022/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -21,9 +21,9 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 ) (c:/texlive/2022/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
  (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
@@ -39,26 +39,26 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count193
 )) (c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen139
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen141
 \ar@mcellbox=\box51
-\extrarowheight=\dimen140
+\extrarowheight=\dimen142
 \NC@list=\toks17
-\extratabsurround=\skip49
-\backup@length=\skip50
+\extratabsurround=\skip50
+\backup@length=\skip51
 \ar@cellbox=\box52
 ) (c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )) (c:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip51
-\enit@outerparindent=\dimen141
+\labelindent=\skip52
+\enit@outerparindent=\dimen143
 \enit@toks=\toks18
 \enit@inbox=\box53
 \enit@count@id=\count194
 \enitdp@description=\count195
 ) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
  (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -88,11 +88,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count196
 )
-\@linkdim=\dimen142
+\@linkdim=\dimen144
 \Hy@linkcounter=\count197
 \Hy@pagecounter=\count198
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -102,7 +102,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count199
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -112,8 +112,6 @@ Package hyperref Info: Hyper index ON on input line 4170.
 Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-\stockwidth=\dimen143
-\stockheight=\dimen144
 Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count266
  (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
@@ -147,7 +145,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
  (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
@@ -161,7 +159,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip52
+\Hy@SectionHShift=\skip53
 ) (c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -193,8 +191,8 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \page@free=\dimen158
 \premulticols=\dimen159
 \postmulticols=\dimen160
-\multicolsep=\skip53
-\multicolbaselineskip=\skip54
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
 \partial@page=\box55
 \last@line=\box56
 \maxbalancingoverflow=\dimen161
@@ -248,7 +246,7 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \colbreak@box=\box98
 \mc@col@check@num=\count285
 ) (c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-10-26 L3 programming layer (loader) 
+Package: expl3 2022-11-02 L3 programming layer (loader) 
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
@@ -280,7 +278,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip55
+\@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -337,8 +335,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen172
 \lineht@=\dimen173
 \@envbody=\toks23
-\multlinegap=\skip56
-\multlinetaggap=\skip57
+\multlinegap=\skip57
+\multlinetaggap=\skip58
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -471,7 +469,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./content/head.tex
-Overfull \hbox (30.0pt too wide) in paragraph at lines 7--8
+Overfull \hbox (30.0pt too wide) in paragraph at lines 8--9
 [] 
  []
 
@@ -502,18 +500,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./content/references.tex) [2] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 11298 strings out of 475066
- 177263 string characters out of 5782772
- 544317 words of memory out of 5000000
- 32524 multiletter control sequences out of 15000+600000
- 486029 words of font info for 59 fonts, out of 8000000 for 9000
+ 11301 strings out of 474968
+ 177175 string characters out of 5780080
+ 546087 words of memory out of 5000000
+ 32624 multiletter control sequences out of 15000+600000
+ 488162 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,7n,76p,619b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,7n,76p,618b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (2 pages, 73485 bytes).
+Output written on resume.pdf (2 pages, 72670 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

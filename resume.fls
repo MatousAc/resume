@@ -1,8 +1,8 @@
-PWD c:/Users/AcHybl/Desktop/code/latex/resume
+PWD c:/Users/mashu/Desktop/code/latex/resume
 INPUT c:/texlive/2022/texmf.cnf
 INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/AcHybl/Desktop/code/latex/resume/resume.tex
+INPUT c:/Users/mashu/Desktop/code/latex/resume/resume.tex
 OUTPUT resume.log
 INPUT ./resumeFormatter.cls
 INPUT ./resumeFormatter.cls
@@ -706,6 +706,8 @@ INPUT ./content/education.tex
 INPUT content/education.tex
 INPUT ./content/education.tex
 INPUT content/education.tex
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT ./content/workExperience.tex
 INPUT content/workExperience.tex
 INPUT ./content/workExperience.tex
@@ -720,6 +722,8 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
