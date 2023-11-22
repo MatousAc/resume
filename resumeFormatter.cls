@@ -34,7 +34,7 @@
 }
 \def \printwebsite {
   \@ifundefined{\@website}{
-    \href{\@website}{\@website}}{}
+    \href{https://\@website}{\@website}}{}
 }
 \def \printmyemail {
   \@ifundefined{\@email}{
