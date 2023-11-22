@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1692627862 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1692627864 0
+["pdflatex"] 1700633016 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1700633018 0
   "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" 1677553604 689 86376864232098ce7d83357283636ec5 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1678471954 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1678472318 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -101,16 +101,16 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1678502981 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678503158 7883450 f285475d8e6997b15fc09aa53ffa8c41 ""
   "c:/texlive/2022/texmf.cnf" 1678502934 713 e69b156964470283e0530f5060668171 ""
-  "content/education.tex" 1677624106 381 5054e7c14c0a2eb4bd308d7ecd28189b ""
-  "content/head.tex" 1677535548 181 7c4fa0f9513bc8749e9ca57cece3b965 ""
-  "content/projects.tex" 1677621150 808 e2145542901d131030b7794cc9805935 ""
-  "content/references.tex" 1677553422 1382 d61fa2c73be44a9e58cac662e1b0d91e ""
-  "content/summary.tex" 1677532982 260 4e9c74d972a7d34b328365f6fa396443 ""
-  "content/technicalStrengths.tex" 1677617070 359 b68c59a0d8f8acc767015f1cbd5bd42b ""
-  "content/workExperience.tex" 1692627860 1561 4a7c1a2b43737f437ada0d675e9095b9 ""
-  "resume.aux" 1692627863 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
+  "content/education.tex" 1700629663 390 61d87f73ab77eabceb7e305947ec3492 ""
+  "content/head.tex" 1700629937 179 b3875597513d8410a7139cff42a5f840 ""
+  "content/projects.tex" 1700630180 818 a8bef25ce9ad2c9eeadc985dcfd0695c ""
+  "content/references.tex" 1700633015 1472 172bfbeb52c53f02bb4262d76f52415a ""
+  "content/summary.tex" 1700629213 257 6edfaf8eb74f39048eb1c71d86e99381 ""
+  "content/technicalStrengths.tex" 1700631667 436 2daeb45855eb66cc8928e05bbf8dd298 ""
+  "content/workExperience.tex" 1700631789 1610 c1445bcccdc5ba8f94431d017950d977 ""
+  "resume.aux" 1700633018 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
   "resume.tex" 1677553604 689 86376864232098ce7d83357283636ec5 ""
-  "resumeFormatter.cls" 1677535558 3546 96c65245144262bd2060d49a6e3f22b3 ""
+  "resumeFormatter.cls" 1700632945 3755 65e0bd37f959c4282caf6ecb4b8a7be3 ""
   (generated)
   "resume.aux"
   "resume.log"

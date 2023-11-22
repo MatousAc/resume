@@ -25,8 +25,8 @@
 % print commands
 \def \printname {
   \begingroup
-    \hfil{\namesize\bf \@name}\hfil
-    \nameskip\break
+  \hfil{\namesize\bf \@name}\hfil
+  \nameskip\break
   \endgroup
 }
 \def \printaddress {
@@ -49,9 +49,9 @@
 % bring it all together with \printcontact
 \def \printcontact {
   \begingroup
-    \centerline{\printmyemail|\printphone}\\
-    \centerline{\printaddress}
-    \par
+  \centerline{\printwebsite|\printmyemail|\printphone}\\
+  \centerline{\printaddress}
+  \par
   \endgroup
 }
 \newcommand{\printanemail}[1] {
@@ -69,45 +69,46 @@
   \sectionskip
   \sectionHeader{#1}
   \begin{list}{}{ % list for each individual item in the section
-    \setlength{\leftmargin}{1em} % margin within the section
-  }
-  \item[]
-}{
+      \setlength{\leftmargin}{1em} % margin within the section
+    }
+    \item[]
+      }{
   \end{list}
 }
 
 % job
 \newenvironment{job}[5][$\smallbullet$]{ % [bullet] job, date, company, location
- {\bf #2} \hfill \printdate{#3} % job title and date
- \ifthenelse{\equal{#4}{}}{}{
-  \\ {\bf\em #4} \hfill {#5} % company and location
-  }\smallskip
-  \begin{list}{#1}{\leftmargin=1em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % compress items
+{\bf #2} \hfill \printdate{#3} % job title and date
+\ifthenelse{\equal{#4}{}}{}{
+\\ {\bf\em #4} \hfill {#5} % company and location
+}\smallskip
+\begin{list}{#1}{\leftmargin=1em} % \cdot used for bullets, no indentation
+  \itemsep -0.5em \vspace{-0.5em} % compress items
   }{
-  \end{list}
-  \medskip
+\end{list}
+\medskip
 }
 
 % project
 \newenvironment{project}[2]{ % project title, date
- {\bf #1} \hfill \printdate{#2}
- \smallskip
+  {\bf #1} \hfill \printdate{#2}
+  \smallskip
   \begin{list}{}{\leftmargin=0em}
-   \itemsep -0.5em \vspace{-0.5em}
-  }{
+    \itemsep -0.5em \vspace{-0.5em}
+    }{
   \end{list}
   \medskip
 }
 
 % reference
-\newcommand{\reference}[5]{ % name, job title, company, email, phone
- {\bf #1}\\
- {\em #2}\\
- #3 \\
- \printanemail{#4}\\
- #5
- \bigskip
+\newcommand{\reference}[6]{ % name, job title, department, company, email, phone
+  \ifthenelse{\equal{#1}{}}{}{{\bf #1}\\}
+  \ifthenelse{\equal{#2}{}}{}{{\em #2}\\}
+  \ifthenelse{\equal{#3}{}}{}{#3\\}
+  \ifthenelse{\equal{#4}{}}{}{#4\\}
+  \ifthenelse{\equal{#5}{}}{}{\printanemail{#5}\\}
+  \ifthenelse{\equal{#6}{}}{}{#6\\}
+  \bigskip
 }
 
 % % whitespace commands
