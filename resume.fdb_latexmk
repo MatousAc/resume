@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1700633366 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1700633368 0
+["pdflatex"] 1701372549 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1701372552 0
   "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" 1677553604 689 86376864232098ce7d83357283636ec5 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1678471954 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1678472318 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -103,12 +103,12 @@
   "c:/texlive/2022/texmf.cnf" 1678502934 713 e69b156964470283e0530f5060668171 ""
   "content/education.tex" 1700629663 390 61d87f73ab77eabceb7e305947ec3492 ""
   "content/head.tex" 1700629937 179 b3875597513d8410a7139cff42a5f840 ""
-  "content/projects.tex" 1700630180 818 a8bef25ce9ad2c9eeadc985dcfd0695c ""
+  "content/projects.tex" 1701372548 1057 f2999406ee5c815fc972f65dfb59529f ""
   "content/references.tex" 1700633087 1472 172bfbeb52c53f02bb4262d76f52415a ""
   "content/summary.tex" 1700629213 257 6edfaf8eb74f39048eb1c71d86e99381 ""
-  "content/technicalStrengths.tex" 1700631667 436 2daeb45855eb66cc8928e05bbf8dd298 ""
-  "content/workExperience.tex" 1700631789 1610 c1445bcccdc5ba8f94431d017950d977 ""
-  "resume.aux" 1700633368 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
+  "content/technicalStrengths.tex" 1701372502 436 0acb7b14f9d9e8c4eb521ad5097c8753 ""
+  "content/workExperience.tex" 1701371569 1610 697e31fb35e1f6f98a987de89a6be06d ""
+  "resume.aux" 1701372551 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
   "resume.tex" 1677553604 689 86376864232098ce7d83357283636ec5 ""
   "resumeFormatter.cls" 1700633365 3763 05158ae525384ba8863803be5116e161 ""
   (generated)
