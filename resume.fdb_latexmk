@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706826286 "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" "resume.pdf" "resume" 1706826287 0
-  "c:/Users/mashu/Desktop/code/latex/resume/resume.tex" 1706484032 723 b646d6189f2b1d023bf55f4a90dee13d ""
+["pdflatex"] 1707853837 "c:/Users/mashu/Desktop/wormhole/work/resume/resume.tex" "resume.pdf" "resume" 1707853839 0
+  "c:/Users/mashu/Desktop/wormhole/work/resume/resume.tex" 1706484032 723 b646d6189f2b1d023bf55f4a90dee13d ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1678471954 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1678472318 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1678485872 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -111,9 +111,9 @@
   "content/projects.tex" 1706729928 1461 79740ccc75986a22ad53e5be67dfbeae ""
   "content/references.tex" 1700633087 1472 172bfbeb52c53f02bb4262d76f52415a ""
   "content/summary.tex" 1700629213 257 6edfaf8eb74f39048eb1c71d86e99381 ""
-  "content/technicalStrengths.tex" 1706826285 433 1a735c89fcf5ecf3ee2ad23ca428e107 ""
+  "content/technicalStrengths.tex" 1707853836 448 ab4d438ccaa75f6d7ae4e740fb1a2e77 ""
   "content/workExperience.tex" 1706163525 1618 191d6ae7a37076d49b01099c156ae589 ""
-  "resume.aux" 1706826287 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
+  "resume.aux" 1707853839 585 014121b2337c1e6ba4f3de0fd03ae8f3 "pdflatex"
   "resume.tex" 1706484032 723 b646d6189f2b1d023bf55f4a90dee13d ""
   "resumeFormatter.cls" 1700633365 3763 05158ae525384ba8863803be5116e161 ""
   (generated)

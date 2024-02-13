@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.10)  1 FEB 2024 17:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.10)  13 FEB 2024 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/mashu/Desktop/code/latex/resume/resume.tex
-(c:/Users/mashu/Desktop/code/latex/resume/resume.tex
+**c:/Users/mashu/Desktop/wormhole/work/resume/resume.tex
+(c:/Users/mashu/Desktop/wormhole/work/resume/resume.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./resumeFormatter.cls
 Document Class: resumeFormatter 2010/07/10 v0.9 resumeFormatter class
@@ -557,14 +557,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./content/references.tex) [2] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
  11681 strings out of 476024
- 185238 string characters out of 5794016
+ 185247 string characters out of 5794016
  1867382 words of memory out of 5000000
  31923 multiletter control sequences out of 15000+600000
  530683 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,76p,618b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,7n,76p,621b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (2 pages, 70378 bytes).
+Output written on resume.pdf (2 pages, 70178 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream

@@ -1,8 +1,8 @@
-PWD c:/Users/mashu/Desktop/code/latex/resume
+PWD c:/Users/mashu/Desktop/wormhole/work/resume
 INPUT c:/texlive/2022/texmf.cnf
 INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/mashu/Desktop/code/latex/resume/resume.tex
+INPUT c:/Users/mashu/Desktop/wormhole/work/resume/resume.tex
 OUTPUT resume.log
 INPUT ./resumeFormatter.cls
 INPUT ./resumeFormatter.cls
