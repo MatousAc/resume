@@ -21,6 +21,8 @@
 \def \@address {}
 \newcommand{\website}[1]{\def\@website{#1}}
 \def \@website {}
+\newcommand{\github}[1]{\def\@github{github.com/#1}}
+\def \@github {}
 
 % print commands
 \def \printname {
@@ -36,21 +38,24 @@
   \@ifundefined{\@website}{
     \href{https://\@website}{\@website}}{}
 }
+\def \printgithub {
+  \@ifundefined{\@github}{
+    \href{https://\@github}{\@github}}{}
+}
 \def \printmyemail {
   \@ifundefined{\@email}{
     \href{mailto:\@email}{\@email}}{}
 }
 \def \printphone {
-  \@ifundefined{\@phone}{\@phone}{}
+  \centerline{\@ifundefined{\@phone}{\@phone}{}}
 }
 \newcommand{\printseparator}[2]{
   \@ifundefined{\@#1}{\@ifundefined{\@#2}{|}{}}{}
 }
-% bring it all together with \printcontact
-\def \printcontact {
+% bring it all together with \printlinks
+\def \printlinks {
   \begingroup
-  \centerline{\printwebsite|\printmyemail|\printphone}\\
-  \centerline{\printaddress}
+  \centerline{\printmyemail|\printwebsite|\printgithub}
   \par
   \endgroup
 }
@@ -77,10 +82,10 @@
 }
 
 % job
-\newenvironment{job}[5][$\smallbullet$]{ % [bullet] job, date, company, location
-{\bf #2} \hfill \printdate{#3} % job title and date
+\newenvironment{job}[5][$\smallbullet$]{ % [bullet] company, date, job, location
+{\bf #2} \hfill \printdate{#3} % company title and date
 \ifthenelse{\equal{#4}{}}{}{
-\\ {\bf\em #4} \hfill {#5} % company and location
+\\ {\bf\em #4} \hfill {#5} % job and location
 }\smallskip
 \begin{list}{#1}{\leftmargin=1em} % \cdot used for bullets, no indentation
   \itemsep -0.5em \vspace{-0.5em} % compress items
