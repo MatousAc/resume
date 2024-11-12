@@ -17,7 +17,7 @@
 \def \@phone {}
 \newcommand{\email}[1]{\def\@email{#1}}
 \def \@email {}
-\newcommand{\address}[1]{\def\@address{#1}}
+\newcommand{\city}[1]{\def\@city{#1}}
 \def \@address {}
 \newcommand{\website}[1]{\def\@website{#1}}
 \def \@website {}
@@ -31,8 +31,8 @@
   \nameskip\break
   \endgroup
 }
-\def \printaddress {
-  \@ifundefined{\@address}{\@address}{}
+\def \printcity {
+  \@ifundefined{\@city}{\@city}{}
 }
 \def \printwebsite {
   \@ifundefined{\@website}{
@@ -47,7 +47,7 @@
     \href{mailto:\@email}{\@email}}{}
 }
 \def \printphone {
-  \centerline{\@ifundefined{\@phone}{\@phone}{}}
+  \@ifundefined{\@phone}{\@phone}{}
 }
 \newcommand{\printseparator}[2]{
   \@ifundefined{\@#1}{\@ifundefined{\@#2}{|}{}}{}
@@ -63,6 +63,13 @@
   \href{mailto:#1}{#1}
 }
 \newcommand{\printdate}[1]{{\em #1}}
+
+\def \printsecondline {
+  \begingroup
+  \centerline{\printphone|\printcity}
+  \par
+  \endgroup
+}
 
 % rSection environment
 \newcommand{\sectionHeader}[1]{
